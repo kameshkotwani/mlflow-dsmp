@@ -1,3 +1,4 @@
+import dagshub
 import sklearn
 import mlflow 
 import mlflow.sklearn
@@ -12,6 +13,14 @@ import seaborn as sns
 iris:sklearn.utils.Bunch = load_iris()
 
 
+# dags hub intialization
+dagshub.init(
+    repo_owner='kameshkotwani',
+    repo_name='mlflow-dsmp',
+    mlflow=True
+)
+
+
 X = iris.data
 y = iris.target
 
@@ -22,7 +31,8 @@ MAX_DEPTH = 15
 N_ESTIMATORS = 15
 
 # mlflow.set_experiment("decision-tree-iris") # this makes the folder if it does not exist
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_tracking_uri("https://dagshub.com/kameshkotwani/mlflow-dsmp.mlflow")
+
 with mlflow.start_run(
     experiment_id= '880032856251384650',
 ) as run:
@@ -43,6 +53,7 @@ with mlflow.start_run(
     print(accuracy)
 
     print('accuracy', accuracy)
+    
 # Log confusion matrix
     cm = confusion_matrix(y_test,y_pred)
     plt.figure(figsize=(6,6))
