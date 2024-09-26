@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/880032856251384650/53864b46ba14492d8fa48f4b8f39bf40/artifacts
+end_time: 1727294673281
+entry_point_name: ''
+experiment_id: '880032856251384650'
+lifecycle_stage: active
+run_id: 53864b46ba14492d8fa48f4b8f39bf40
+run_name: intrigued-hound-836
+run_uuid: 53864b46ba14492d8fa48f4b8f39bf40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727294670769
+status: 3
+tags: []
+user_id: kames

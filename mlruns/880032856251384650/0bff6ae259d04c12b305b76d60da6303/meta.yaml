@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/880032856251384650/0bff6ae259d04c12b305b76d60da6303/artifacts
+end_time: 1727293626363
+entry_point_name: ''
+experiment_id: '880032856251384650'
+lifecycle_stage: active
+run_id: 0bff6ae259d04c12b305b76d60da6303
+run_name: decision-tree-01
+run_uuid: 0bff6ae259d04c12b305b76d60da6303
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727293626350
+status: 3
+tags: []
+user_id: kames

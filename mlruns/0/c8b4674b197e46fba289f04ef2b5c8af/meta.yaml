@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/c8b4674b197e46fba289f04ef2b5c8af/artifacts
+end_time: 1727292961788
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c8b4674b197e46fba289f04ef2b5c8af
+run_name: selective-finch-96
+run_uuid: c8b4674b197e46fba289f04ef2b5c8af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727292961767
+status: 3
+tags: []
+user_id: kames

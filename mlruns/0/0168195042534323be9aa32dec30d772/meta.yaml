@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/0168195042534323be9aa32dec30d772/artifacts
+end_time: 1727292852087
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0168195042534323be9aa32dec30d772
+run_name: luxuriant-slug-480
+run_uuid: 0168195042534323be9aa32dec30d772
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727292852010
+status: 3
+tags: []
+user_id: kames

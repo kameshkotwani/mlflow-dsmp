@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/880032856251384650/94627dc72017463287f139b1163aafdc/artifacts
+end_time: 1727293511616
+entry_point_name: ''
+experiment_id: '880032856251384650'
+lifecycle_stage: active
+run_id: 94627dc72017463287f139b1163aafdc
+run_name: receptive-foal-581
+run_uuid: 94627dc72017463287f139b1163aafdc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727293511602
+status: 3
+tags: []
+user_id: kames
