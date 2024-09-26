@@ -34,7 +34,6 @@ N_ESTIMATORS = 15
 mlflow.set_tracking_uri("https://dagshub.com/kameshkotwani/mlflow-dsmp.mlflow")
 
 with mlflow.start_run(
-    experiment_id= '880032856251384650',
 ) as run:
 
     dt = DecisionTreeClassifier(max_depth= MAX_DEPTH)
