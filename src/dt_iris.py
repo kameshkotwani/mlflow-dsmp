@@ -27,14 +27,13 @@ y = iris.target
 X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.2)
 
 # params for RandomForest Model
-MAX_DEPTH = 15  
-N_ESTIMATORS = 15
+MAX_DEPTH = 5
+N_ESTIMATORS = 3
 
 # mlflow.set_experiment("decision-tree-iris") # this makes the folder if it does not exist
 mlflow.set_tracking_uri("https://dagshub.com/kameshkotwani/mlflow-dsmp.mlflow")
 
-with mlflow.start_run(
-) as run:
+with mlflow.start_run() as run:
 
     dt = DecisionTreeClassifier(max_depth= MAX_DEPTH)
     
