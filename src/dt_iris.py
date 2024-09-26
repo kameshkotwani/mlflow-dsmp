@@ -1,4 +1,4 @@
-import dagshub
+# import dagshub
 import sklearn
 import mlflow 
 import mlflow.sklearn
@@ -14,11 +14,11 @@ iris:sklearn.utils.Bunch = load_iris()
 
 
 # dags hub intialization
-dagshub.init(
-    repo_owner='kameshkotwani',
-    repo_name='mlflow-dsmp',
-    mlflow=True
-)
+# dagshub.init(
+#     repo_owner='kameshkotwani',
+#     repo_name='mlflow-dsmp',
+#     mlflow=True
+# )
 
 
 X = iris.data
@@ -27,11 +27,11 @@ y = iris.target
 X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.2)
 
 # params for RandomForest Model
-MAX_DEPTH = 5
+MAX_DEPTH = 10
 N_ESTIMATORS = 3
 
 # mlflow.set_experiment("decision-tree-iris") # this makes the folder if it does not exist
-mlflow.set_tracking_uri("https://dagshub.com/kameshkotwani/mlflow-dsmp.mlflow")
+mlflow.set_tracking_uri("http://3.93.216.240:5000/")
 
 with mlflow.start_run() as run:
 
